@@ -17,7 +17,7 @@ class UserList extends Component{
     render() {
         return (
             <select onChange={this.changeHandler}>
-                <option>--选择用户--</option>
+                <option value="">--选择用户--</option>
                 <option>张三</option>
                 <option>李四</option>
             </select>
